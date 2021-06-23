@@ -1,0 +1,12 @@
+# 数据库连接串 & 密码
+mariadb:
+  url: 'jdbc:mysql://192.168.126.16:3306/foodie-shop-dev?useUnicode=true&characterEncoding=UTF-8&autoReconnect=TRUE'
+  username: '{cipher}a92aba78a2b6eeed2596939e4b3ed023edfdb4591ad543a44f82624739b0eece'
+  password: '{cipher}a92aba78a2b6eeed2596939e4b3ed023edfdb4591ad543a44f82624739b0eece'
+
+# 功能开关 - 开启/关闭注册功能
+userservice:
+  registeration:
+    disabled: true
+
+# actuator
