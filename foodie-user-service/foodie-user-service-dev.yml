@@ -8,5 +8,3 @@ mariadb:
 userservice:
   registration:
     disabled: true
-
-# actuator
